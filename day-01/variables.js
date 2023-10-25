@@ -1,7 +1,7 @@
 const accountId = 2021
 let accountEmail = "pintoo@mailinator.com"
 var accountPass = "202314520"
-accountCity = "Ahmedabad"
+accountCity = "Ahmadabad"
 let accountState 
 
 // accountId = 2222 not allowed 

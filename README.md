@@ -2,7 +2,7 @@
 
 A code repo for the JavaScript learning..!
 
-** Topic 1 :- JavaScript Variables **
+# Topic 1 :- JavaScript Variables
 
 # What is a variable?
 
