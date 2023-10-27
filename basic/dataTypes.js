@@ -8,7 +8,7 @@ let nameMy = "Pintoo"
 let age = 15
 let isLog = true
 
-/*  */
+/* note */
 // number 
 // bigint
 // string => "" ( recommend ) 
