@@ -46,5 +46,34 @@ const myAge = function(){
 }
 
 console.log(typeof socialMediaApps);
-    
+
+// ******************************* Memory *********************************************
+
+// Stack ( Primitive )
+
+let myGitId = "iampintoo"
+
+let myGitIdNew = myGitId
+
+myGitIdNew = "No chai no code"
+
+console.log(myGitIdNew);
+
+console.log(myGitId);
+
+// Heap ( Non - Primitive)    
+
+let user = {
+    email: "pintoo@mailinator.com",
+    age: "18"
+}
+
+let userNew = user
+
+userNew.email = "pintoo1@mailinator.com"
+
+console.log(user.email);
+console.log(userNew.email);
+
+
 
