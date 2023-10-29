@@ -16,3 +16,19 @@ A code repo for the JavaScript learning..!
   - **let** : Only use let if you can't use const and also for change the data.
   - **const** : Always use const if the value should not be changed and use const if the type
     should not be changed (Arrays and Objects)
+
+
+# Topic 2 :- JavaScript Array
+
+# What is an Array?
+
+- The **Array** object, as with arrays in other programming languages, enables 
+  **storing a collection of multiple items under a single variable name**, and has members 
+  for **performing common array operations**.
+- Array objects with the following core characteristics:
+  - JavaScript arrays are **resizable and can contain a mix of different** data types. 
+  - JavaScript arrays are not associative arrays.
+  - JavaScript arrays are **zero-indexed**: the first element of an array is at index 0.
+  - JavaScript **array-copy operations** create **shallow copies**.   
+
+
