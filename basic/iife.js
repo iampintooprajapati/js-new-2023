@@ -8,4 +8,4 @@
 ( (name) => {
     console.log(`DB Connected 2 ${name}`);
 
-}) ("Pintoo")
+}) ("Pintoo") 
