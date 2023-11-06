@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Code Monday</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </body>
+  <script>
+    const sayDate = setInterval(function () {
+      console.log("Pintoo", Date.now());
+    }, 1000);
+
+    const intervalId = setInterval(sayDate, 1000, "hi");
+
+    clearInterval(intervalId);
+  </script>
+</html>
