@@ -9,14 +9,28 @@
     <h1>Code Monday</h1>
     <button id="start">Start</button>
     <button id="stop">Stop</button>
+    <div class="project">
+      <div id="insert">
+        <div class="key"></div>
+      </div>
+    </div>
   </body>
   <script>
-    const sayDate = setInterval(function () {
-      console.log("Pintoo", Date.now());
-    }, 1000);
+    let intervalId;
+    const sayPintoo = function () {
+      if (!intervalId) {
+        intervalId = setInterval(sayPintooRepeat, 1000);
+      }
+      function sayPintooRepeat() {
+        console.log("Pintoo", Date.now());
+      }
+    };
+    const stopPintoo = function () {
+      clearInterval(intervalId);
+      intervalId = null;
+    };
 
-    const intervalId = setInterval(sayDate, 1000, "hi");
-
-    clearInterval(intervalId);
+    document.querySelector("#start").addEventListener("click", sayPintoo);
+    document.querySelector("#stop").addEventListener("click", stopPintoo);
   </script>
 </html>
